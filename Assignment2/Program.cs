@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Assignment2
 {
@@ -10,11 +6,13 @@ namespace Assignment2
     {
         static void Main(string[] args)
         {
+            // Creates real and imaginary parts of Complex numbers
             RealNumber real1 = new RealNumber(2);
             RealNumber imaginary1 = new RealNumber(3);
             RealNumber real2 = new RealNumber(8);
             RealNumber imaginary2 = new RealNumber(6);
 
+            // Creates two Complex number
             ComplexNumber comp1 = new ComplexNumber(real1, imaginary1);
             ComplexNumber comp2 = new ComplexNumber(real2, imaginary2);
 
